@@ -1,0 +1,77 @@
+#sa{
+    text-align: center;
+    margin-top: 10em;
+}
+/* #firDiv{
+    background-color: aqua;
+    color: black;
+} */
+body{
+    background-image: url(https://www.bergerpaints.com/colour-magazine/Upload/Quiz/Banner/quiz-bnr-nov19.jpg);
+    color:ivory;
+}
+fieldset{
+    margin:1em 2em 1em 1em;
+    border-radius: 2em;
+    
+}
+#rules{
+    
+  font-size: 2em;
+  
+}
+.button{
+    text-align: center;
+    margin-top: 5em;
+}
+.bu:hover{
+  color:floralwhite;
+  background-color: black;
+}
+.bu{
+    font-size: 3em;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:yellowgreen;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+#div2{
+    margin:1em 1em 1em 1em
+}
+#div3{
+    margin:1em 1em 1em 1em
+}
+#div4{
+    margin:1em 1em 1em 1em
+}
+#div5{
+    margin:1em 1em 1em 1em
+}
+.rt{
+    font-size: 1.5em;
+    color:yellow;
+}
